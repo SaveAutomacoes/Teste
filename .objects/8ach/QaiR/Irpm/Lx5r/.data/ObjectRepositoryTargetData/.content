@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u-C1lzvzwk-mxXicvCCeTw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cav.receita.fazenda.gov.br/ecac/Default.aspx" CVScreenId="8084a2b4-61bc-4273-bf76-4b2fb5200205" CvTextArea="319, 332, 129, 16" CvTextArgument="LOCALIZAR SERVIÇO" CvType="Text" DesignTimeRectangle="320, 335, 922, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" Guid="e1589475-66f2-49b1-b40e-cb10dc01632b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eCAC - Centro Virtual de Atendimento' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8084a2b4-61bc-4273-bf76-4b2fb5200205" CvElementArea="314, 349, 927, 28" CvType="InputBox" DesignTimeRectangle="320, 351, 924, 25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='txtPesquisar' tag='INPUT' /&gt;" Guid="2a36bc33-f1d2-4835-8f3e-bd81376ff9ed" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0f524b56c5fc70aa8e416a7b00c9a7ff.png" xmlns="">0y3DDfl-KFUKkLEXhrx-TsQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

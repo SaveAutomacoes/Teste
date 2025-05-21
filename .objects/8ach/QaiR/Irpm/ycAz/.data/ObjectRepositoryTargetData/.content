@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8On6btyCVU-IMi-tRp-e4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cav.receita.fazenda.gov.br/ecac/Default.aspx" CVScreenId="1499faeb-c830-4fe6-9ab8-d3e2219d6ac4" CvElementArea="317, 349, 924, 30" CvType="InputBox" DesignTimeRectangle="320, 351, 924, 25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='txtPesquisar' tag='INPUT' type='text' class='ac_input' aaname='Localizar Serviço' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="12fd9503-eefd-4d32-a66d-5fa786f816c0" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eCAC - Centro Virtual de Atendimento' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1499faeb-c830-4fe6-9ab8-d3e2219d6ac4" CvTextArea="319, 332, 130, 16" CvTextArgument="LOCALIZAR SERVIÇO" CvType="Text" DesignTimeRectangle="320, 335, 922, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Localizar Serviço' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='LOCALIZAR SERVIÇO' /&gt;" Guid="1a5a46b9-74c7-42e6-9a0b-c9c9b9de7508" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f0908d441b7ae9d0e11655b838497c65.png" xmlns="">0DOaPhtZMtk-Thr7-fhzauQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

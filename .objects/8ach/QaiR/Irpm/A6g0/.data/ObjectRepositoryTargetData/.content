@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="syhdOW7tCUWL7ZCJHpt0Yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cav.receita.fazenda.gov.br/ecac/Default.aspx" CVScreenId="1499faeb-c830-4fe6-9ab8-d3e2219d6ac4" CvElementArea="307, 410, 213, 35" CvTextArea="382, 421, 63, 12" CvTextArgument="Cadastros" CvType="Button" DesignTimeRectangle="313, 411, 206, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='btn198' tag='A' /&gt;" Guid="d4268fb2-b588-46db-bfc8-8e2c97f27957" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eCAC - Centro Virtual de Atendimento' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1499faeb-c830-4fe6-9ab8-d3e2219d6ac4" CvElementArea="307, 410, 213, 35" CvTextArea="382, 421, 63, 12" CvTextArgument="Cadastros" CvType="Button" DesignTimeRectangle="309, 411, 210, 32" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl id='btn198' tag='LI' type='' class='botaoAzulServicos' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cadastros' /&gt;" Guid="e232ff6d-2031-4a6b-bf68-b46f4cdca0d8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a55a0d9b7df85ce7fa8bc328faceef69.png" xmlns="">0JaYI-aiU6Ee7Re7EXzI7uQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

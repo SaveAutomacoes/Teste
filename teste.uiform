@@ -1,0 +1,82 @@
+﻿{
+  "Metadata": {
+    "Id": "4d766e88-0bab-444e-8313-e1935ac87e4e",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "teste",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      },
+      {
+        "label": "CNPJ",
+        "placeholder": "CNPJ",
+        "description": "CNPJ",
+        "tooltip": "CNPJ",
+        "prefix": "CNPJ",
+        "suffix": "CNPJ",
+        "inputMask": "99.999.999/99-99",
+        "tableView": true,
+        "defaultValue": "46.134.565/84-51",
+        "key": "cnpj",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Radio",
+        "optionsLabelPosition": "right",
+        "inline": false,
+        "tableView": false,
+        "values": [
+          {
+            "label": "Alou",
+            "value": "aaaaalou",
+            "shortcut": ""
+          },
+          {
+            "label": "vvvv",
+            "value": "vvvv",
+            "shortcut": ""
+          },
+          {
+            "label": "bbbb",
+            "value": "bbbb",
+            "shortcut": ""
+          }
+        ],
+        "key": "radio",
+        "type": "radio",
+        "input": true
+      },
+      {
+        "label": "Edit Grid",
+        "key": "editGrid",
+        "type": "editgrid",
+        "displayAsTable": true,
+        "input": true,
+        "tableView": false,
+        "components": [
+          {
+            "label": "Text Field",
+            "tableView": true,
+            "key": "textField",
+            "type": "textfield",
+            "input": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Localizar Serviço(2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Lx5rfhj6M0GRlYOE7qrAPQ",
+  "Reference": "lTJbLpVodU6Nf7NZEjYAeQ/Lx5rfhj6M0GRlYOE7qrAPQ",
+  "ParentRef": "lTJbLpVodU6Nf7NZEjYAeQ/IrpmGCpHoEy-B0sbFtcPrw",
+  "Created": "2025-05-19T21:05:01.2594463Z",
+  "Updated": "2025-05-19T21:05:01.2594463Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
