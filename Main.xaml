@@ -109,9 +109,10 @@
       <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
       <AssemblyReference>UiPath.Studio.Forms.Runtime</AssemblyReference>
       <AssemblyReference>UiPath.Forms.Activities</AssemblyReference>
+      <AssemblyReference>testeUipath.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1270.2,2504" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1270.2,2390" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="texto" />
       <Variable x:TypeArguments="x:String" Name="cnpj" />
@@ -131,13 +132,13 @@
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome eCAC - Centro Virtual de Atendimento" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,2086" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="45a6a91a-23bd-4ba7-bd69-37ebda314f78" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome eCAC - Centro Virtual de Atendimento" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,1972" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="45a6a91a-23bd-4ba7-bd69-37ebda314f78" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="988,1846" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="988,1732" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="existe" />
             </Sequence.Variables>
@@ -245,12 +246,7 @@
                 </Sequence>
               </If.Else>
             </If>
-            <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[&quot;G:\Meu Drive\7. Automação\OUTRAS AUTOMATIZAÇÕES\Checklist\&quot; + empresa + &quot;-&quot; + cnpj + &quot;\planilha.xlsx&quot;]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="954,191" sap2010:WorkflowViewState.IdRef="MoveFile_1" Path="[Directory.GetFiles(&quot;C:\Users&quot;+Environment.UserName+&quot;\Downloads&quot;,&quot;*.xlsx&quot;).OrderByDescending(Function(d) New FileInfo(d).CreationTime).ToList(0)]" />
-            <Assign sap:VirtualizedContainerService.HintSize="954,107" sap2010:WorkflowViewState.IdRef="Assign_1">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:String">[texto]</OutArgument>
-              </Assign.To>
-            </Assign>
+            <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[&quot;G:\Meu Drive\7. Automação\OUTRAS AUTOMATIZAÇÕES\Checklist\&quot; + empresa + &quot;-&quot; + cnpj + &quot;\planilha.xlsx&quot;]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="954,184" sap2010:WorkflowViewState.IdRef="MoveFile_1" Path="[Directory.GetFiles(&quot;C:\Users&quot;+Environment.UserName+&quot;\Downloads&quot;,&quot;*.xlsx&quot;).OrderByDescending(Function(d) New FileInfo(d).CreationTime).ToList(0)]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
